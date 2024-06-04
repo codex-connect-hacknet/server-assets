@@ -1,0 +1,31 @@
+{
+    "server": {
+        "host": "server-codex-connect-assets",
+        "ip": "211.117.107.115",
+        "port": 46591,
+        "username": "admin",
+        "ssh_key_path": "noonewillgessmypassword:D"
+    },
+    "database": {
+        "type": "postgresql",
+        "host": "dbhost.example.net",
+        "port": 5432,
+        "username": "dbuser",
+        "password": "securepassword",
+        "database_name": "codexdb"
+    },
+    "logging": {
+        "level": "info",
+        "file": "log/server_config.log"
+    },
+    "services": {
+        "web_server": {
+            "enabled": true,
+            "port": 8080
+        },
+        "api_server": {
+            "enabled": true,
+            "port": 9090
+        }
+    }
+}
