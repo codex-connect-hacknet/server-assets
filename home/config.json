@@ -4,7 +4,7 @@
         "ip": "211.117.107.115",
         "port": 46591,
         "username": "admin",
-        "ssh_key_path": "noonewillgessmypassword:D"
+        "ssh_key_path": "noonewillguessmypassword:D"
     },
     "database": {
         "type": "postgresql",
